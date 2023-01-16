@@ -1,6 +1,11 @@
+// we need to import componet because we want to use classes
+import { Component} from 'react';
+// this is loading our logo
 import logo from './logo.svg';
+// this is getting the css related to the app
 import './App.css';
 
+// the function returns the html/ jsx which will define our app
 function App() {
   return (
     <div className="App">
